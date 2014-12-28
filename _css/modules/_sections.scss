@@ -1,0 +1,133 @@
+/*****************************************************************************
+ ** Generic section styles for 
+ *****************************************************************************/
+
+.section h2{
+	font-size: 1.2em;
+	font-weight: bold;
+	text-transform: lowercase;
+	color: #666;
+}
+
+.explainer-text{
+	line-height: 1.4em;
+	margin: 1.5em 0em;
+	color: #666;
+	font-weight: 100;
+}
+
+/*****************************************************************************
+ ** Styles for days section
+ *****************************************************************************/
+
+.days, .months{
+	
+	background: #eee;
+	background: url("../_img/paper.png") repeat fixed;
+	overflow: hidden;
+	padding: 1.5em 0em;
+
+	h2{
+		font-weight: bold;
+		color: #333;
+		font-size: 1em;
+		display: inline;
+		margin-right: 10px;
+	}
+
+
+	ul{
+		margin: 0px;
+		padding: 0px;
+		width: 100%;
+		display: inline;
+	}
+
+	ul li{
+		display: inline;
+		margin: 0px 10px 0px 0px;
+		padding: 0px;
+	}
+
+	ul li.active a{
+		color: #333;
+		font-weight: bold;
+	}
+
+	ul li.active a:hover{
+		text-decoration: none;
+	}
+
+}
+
+.months{
+	border-top: 1px solid #ddd;
+}
+
+/*****************************************************************************
+ ** Styles for about section
+ *****************************************************************************/
+
+.about{
+	clear: both;
+	line-height: 1.5em;
+	font-size: 1.2em;
+	margin: 3em 0em;
+	font-style: italic;
+	color: #666;
+}
+
+/*****************************************************************************
+ ** Styles for portfolio section
+ *****************************************************************************/
+
+.portfolio{
+	background: #eee;
+	background: url("../_img/paper.png") repeat fixed;
+	overflow: hidden;
+	padding-top: 3em;
+	border-top: 1px solid rgba(0,0,0,.05);
+}
+
+.portfolio .pagination a{
+	color: #666;
+}
+
+.float-list{
+	overflow: hidden;
+	list-style: none;
+}
+
+.float-list li{
+	float: left;
+	width: 30%;
+	margin-right: 5%;
+	margin-bottom: 2%;
+	overflow: visible;
+}
+
+.float-list li a:hover img{
+	opacity: .9;
+}
+
+.float-list li.last{
+	margin-right: 0%;
+}
+
+.float-list li.first{
+	clear: both;
+}
+
+.float-list li img{
+	max-width: 100%;
+}
+.float-list-title{
+	font-weight: bold;
+	padding-top: .5em;
+	display: block;
+	line-height: 1.3em;
+}
+
+.article .float-list span{
+	font-size: .8em;
+}

@@ -1,0 +1,23 @@
+/* Images */
+
+img{
+	max-width: 100%;
+	height: auto;
+	display: block;
+}
+
+.feature-image > figcaption,
+.wp-caption-text{
+	margin: .5em 0em 1.5em 0em;
+	font-size: .8em;
+	line-height: 1.5em;
+	font-style: italic;
+}
+
+figure.feature-image{
+	margin: 0px 0px 2.5em 0px;
+}
+
+.article p.wp-caption-text{
+	margin-top: .5em;
+}
