@@ -1,7 +1,13 @@
 #footer{
+
 	background: #222;
 	color: #999;
 	padding: 3em 0em;
 	font-weight: 100;
 	line-height: 1.45em;
+
+	p + p{
+		margin-top: 1em;
+	}
+
 }
