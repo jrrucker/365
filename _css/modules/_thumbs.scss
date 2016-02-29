@@ -1,0 +1,42 @@
+.thumbs{
+
+	overflow: auto;
+
+	.article{
+		margin-top: 0px;
+	}
+
+	ul{
+		padding: 0px;
+		margin: 0px;
+	}
+
+	a{
+		background: #fff;
+		display: block;
+		padding: 10px;
+	}
+
+	a img{
+		display: block;
+		max-width: 100%;
+		opacity: .7;
+		-webkit-backface-visibility: hidden;
+		transition: opacity 1s;
+	}
+
+	a:hover img{
+		opacity: 1;
+		transition: opacity .6s;
+	}
+
+	li{
+		list-style: none;
+		display: block;
+		margin: 0px;
+		padding: 0px;
+		width: 33.3333333333%;
+		float: left;
+	}
+
+}

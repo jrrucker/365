@@ -2,10 +2,11 @@
 	margin: 2.5em 0em;
 	font-size: 1.2em;
 	line-height: 1.45em;
+	overflow: auto;
 }
 
 .article-heading{
-	font-size: 1.8em;
+	font-size: 1.5em;
 	line-height: 1.25em;
 	font-weight: bold;
 	color: $accent-color;
@@ -56,5 +57,5 @@ blockquote{
 
 .article p,
 .article ul{
-	margin: 1.5em 0em;
+	margin: .5em 0em;
 }

@@ -1,4 +1,4 @@
 <?php 
-	include "_includes/last-post.php";
-	header('Location: ' . date('m/d/',$image['timestamp'])); 
+	include "_includes/config.php";
+	header('Location: ' . $lastPost); 
 ?>
